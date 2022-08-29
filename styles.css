@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-image {
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  min-height: 100vh;
+  background-color: var(--Pale-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+
+  text-align: center;
+}
+
+.main-container {
+  background-color: #fff;
+  width: 400px;
+}
+
+.main-content {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--Desaturated-blue);
+  margin-bottom: 1.5rem;
+}
+
+.music-icon {
+  width: 2.9rem;
+  height: 2.9rem;
+  margin-right: 1.2rem;
+}
+
+.pricing {
+  display: flex;
+  padding: 5% 6%;
+  align-items: center;
+  background-color: var(--Very-pale-blue);
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.pricing-info {
+  display: flex;
+}
+
+.plan-text {
+  color: var(--Dark-blue);
+  font-weight: 900;
+}
+
+.price-text {
+  color: var(--Desaturated-blue);
+}
+
+.payment-button {
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 3px 5px 15px var(--Desaturated-blue);
+  background-color: var(--Bright-blue);
+}
+
+.btn {
+  display: block;
+  margin: 2rem auto;
+  width: 80%;
+  padding: 4% 6%;
+  text-align: center;
+  border: none;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+
+.cancel-button {
+  background-color: #fff;
+  color: var(--Desaturated-blue);
+}
+
+.cancel-button:hover,
+.payment-button:hover,
+.change-link {
+  cursor: pointer;
+}
+
+.cancel-button:hover {
+  color: var(--Dark-blue);
+  transition: all 0.3s ease;
+}
+
+.payment-button:hover {
+  background-color: #7a4495;
+  transition: all 0.3s ease;
+}
+
+.link-change:hover {
+  color: #7a4495;
+  transition: all 0.3s ease;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+}
